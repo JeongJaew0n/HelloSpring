@@ -22,7 +22,7 @@ class ObjectMapperApplicationTests {
 
         // object -> text(json)
         // *object mapper needs 'get method'
-        var user = new User("boongboong",22,"0101-1494-3736");
+        var user = new User("Jaewon",22,"0101-1494-3736");
 
         var text = objectMapper.writeValueAsString(user);
         System.out.println(text);
